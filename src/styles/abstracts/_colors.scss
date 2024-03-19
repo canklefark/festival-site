@@ -1,0 +1,66 @@
+// Global Color Tokens
+$-clr-white: hsl(0 0% 100%);
+$-clr-gray-100: hsl(0 0% 95%);
+$-clr-gray-200: hsl(0 0% 82.5%);
+$-clr-gray-300: hsl(0 0% 70%);
+$-clr-gray-400: hsl(0 0% 60%);
+$-clr-gray-500: hsl(0 0% 50%);
+$-clr-gray-600: hsl(0 0% 40%);
+$-clr-gray-700: hsl(0 0% 30%);
+$-clr-gray-800: hsl(0 0% 17.5%);
+$-clr-gray-900: hsl(0 0% 7.5%);
+$-clr-black: hsl(0 0% 0%);
+
+$-clr-base-100: hsl(20 27% 98%);
+$-clr-base-200: hsl(36 26% 96%);
+$-clr-base-300: hsl(30 32% 93%);
+$-clr-base-400: hsl(32 30% 89%);
+$-clr-base-500: hsl(30 6% 59%);
+$-clr-base-700: hsl(36 3% 30%);
+$-clr-base-900: hsl(20 3% 18%);
+
+$-clr-red-100: hsl(4 26% 89%);
+$-clr-red-200: hsl(3 26% 83%);
+$-clr-red-300: hsl(3 26% 65%);
+$-clr-red-400: hsl(3 29% 47%);
+$-clr-red-500: hsl(3 29% 32%);
+$-clr-red-700: hsl(3 28% 16%);
+$-clr-red-900: hsl(4 29% 9%);
+
+$-clr-blue-100: hsl(210 26% 89%);
+$-clr-blue-200: hsl(209 26% 83%);
+$-clr-blue-300: hsl(209 26% 65%);
+$-clr-blue-400: hsl(209 29% 47%);
+$-clr-blue-500: hsl(209 29% 32%);
+$-clr-blue-700: hsl(209 28% 16%);
+$-clr-blue-900: hsl(210 29% 9%);
+
+$-clr-green-100: hsl(134 30% 89%);
+$-clr-green-200: hsl(135 29% 81%);
+$-clr-green-300: hsl(136 29% 62%);
+$-clr-green-400: hsl(136 38% 44%);
+$-clr-green-500: hsl(136 38% 29%);
+$-clr-green-700: hsl(135 38% 15%);
+$-clr-green-900: hsl(134 38% 9%);
+
+$-clr-yellow-100: hsl(56 79% 92%);
+$-clr-yellow-200: hsl(58 78% 87%);
+$-clr-yellow-300: hsl(57 78% 75%);
+$-clr-yellow-400: hsl(57 78% 62%);
+$-clr-yellow-500: hsl(57 48% 41%);
+$-clr-yellow-700: hsl(58 49% 21%);
+$-clr-yellow-900: hsl(56 49% 12%);
+
+$-clr-orange-100: hsl(15 79% 92%);
+$-clr-orange-200: hsl(15 78% 87%);
+$-clr-orange-300: hsl(14 80% 75%);
+$-clr-orange-400: hsl(15 79% 62%);
+$-clr-orange-500: hsl(14 48% 42%);
+$-clr-orange-700: hsl(15 49% 21%);
+$-clr-orange-900: hsl(15 49% 12%);
+
+$colors: (
+  base: (
+    light: $-clr-base,
+  ),
+);
