@@ -1,0 +1,7 @@
+.ff-serif { font-family: "Bagnard", serif; }
+.ff-sans { font-family: "OverusedGrotesk", sans-serif; }
+
+.fw-bold { font-weight: 700; }
+
+.flex { display: flex; gap: var(--gap, 1rem); }
+.grid { display: grid; gap: var(--gap, 1rem); }

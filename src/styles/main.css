@@ -1,0 +1,24 @@
+@import './reset.css';
+@import './fonts.css';
+@import './typography.css';
+@import './colors.css';
+@import './utilities.css';
+
+:root {
+  font-size: clamp(0.88rem, 0.36vw + 0.8rem, 1.13rem);
+  --breakpoint-small: 20em;
+  --breakpoint-medium: 45em;
+  --breakpoint-large: 90em;
+
+  --ratio: 1.5;
+
+  --size-100: calc(var(--size-200) / var(--ratio));
+  --size-200: calc(var(--size-300) / var(--ratio));
+  --size-300: calc(var(--size-400) / var(--ratio));
+  --size-400: 1rem;
+  --size-500: calc(var(--size-400) * var(--ratio));
+  --size-600: calc(var(--size-500) * var(--ratio));
+  --size-700: calc(var(--size-600) * var(--ratio));
+  --size-800: calc(var(--size-700) * var(--ratio));
+  --size-900: calc(var(--size-800) * var(--ratio));
+}

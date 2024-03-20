@@ -1,3 +1,34 @@
 ---
-
+import BaseLayout from '../../layout/BaseLayout.astro';
 ---
+
+<BaseLayout title="Style Guide">
+  <main>
+    <section class="flex">
+      <div>
+        <h1 class="ff-serif">Title 1</h1>
+        <h2 class="ff-serif">Title 2</h2>
+        <h3 class="ff-serif">Title 3</h3>
+        <h4 class="ff-serif">Title 4</h4>
+        <h5 class="ff-serif">Title 5</h5>
+        <h6 class="ff-serif">Title 6</h6>
+        <p>Body Text</p>
+      </div>
+      <div>
+        <h1 class="ff-sans fw-bold">Heading 1</h1>
+        <h2 class="ff-sans fw-bold">Heading 2</h2>
+        <h3 class="ff-sans fw-bold">Heading 3</h3>
+        <h4 class="ff-sans fw-bold">Heading 4</h4>
+        <h5 class="ff-sans">Heading 5</h5>
+        <h6 class="ff-sans">Heading 6</h6>
+        <p>Body Text</p>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .flex {
+    --gap: var(--size-900);
+  }
+</style>
