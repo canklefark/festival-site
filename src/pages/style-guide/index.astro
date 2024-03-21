@@ -1,27 +1,43 @@
 ---
-import BaseLayout from '../../layout/BaseLayout.astro';
+import BaseLayout from "../../layout/BaseLayout.astro";
 ---
 
 <BaseLayout title="Style Guide">
   <main>
-    <section class="flex">
-      <div>
+    <section class="flex u-container">
+      <div class="flow">
         <h1 class="ff-serif">Title 1</h1>
         <h2 class="ff-serif">Title 2</h2>
         <h3 class="ff-serif">Title 3</h3>
         <h4 class="ff-serif">Title 4</h4>
-        <h5 class="ff-serif">Title 5</h5>
-        <h6 class="ff-serif">Title 6</h6>
+        <h5 class="ff-serif uppercase">Title 5</h5>
+        <h6 class="ff-serif uppercase">Title 6</h6>
         <p>Body Text</p>
       </div>
-      <div>
-        <h1 class="ff-sans fw-bold">Heading 1</h1>
-        <h2 class="ff-sans fw-bold">Heading 2</h2>
-        <h3 class="ff-sans fw-bold">Heading 3</h3>
-        <h4 class="ff-sans fw-bold">Heading 4</h4>
-        <h5 class="ff-sans">Heading 5</h5>
-        <h6 class="ff-sans">Heading 6</h6>
+      <div class="flow">
+        <h1 class="ff-sans">Heading 1</h1>
+        <h2 class="ff-sans">Heading 2</h2>
+        <h3 class="ff-sans">Heading 3</h3>
+        <h4 class="ff-sans">Heading 4</h4>
+        <h5 class="ff-sans uppercase">Heading 5</h5>
+        <h6 class="ff-sans uppercase">Heading 6</h6>
         <p>Body Text</p>
+      </div>
+    </section>
+    <section class="grid-spacing u-container">
+      <div class="grid-space-example u-grid">
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
+        <div class="bg-base"></div>
       </div>
     </section>
   </main>
@@ -29,6 +45,22 @@ import BaseLayout from '../../layout/BaseLayout.astro';
 
 <style>
   .flex {
-    --gap: var(--size-900);
+    --gap: var(--space-3xl);
+  }
+
+  section {
+    padding-block: var(--space-m);
+  }
+
+  .grid-spacing {
+    min-height: 100vh;
+  }
+
+  .grid-space-example {
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+    min-height: inherit;
+  }
+  .bg-base {
+    background-color: var(--clr-base-400);
   }
 </style>

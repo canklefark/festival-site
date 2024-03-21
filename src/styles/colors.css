@@ -19,7 +19,8 @@
   --clr-base-400: hsl(32 30% 89%);
   --clr-base-500: hsl(30 6% 59%);
   --clr-base-700: hsl(36 3% 30%);
-  --clr-base-900: hsl(20 3% 18%);
+  --clr-base-800: hsl(20 3% 18%);
+  --clr-base-900: hsl(20 3% 10%);
 
   /* Red */
   --clr-red-100: hsl(4 26% 89%);
