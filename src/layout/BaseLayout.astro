@@ -1,6 +1,6 @@
 ---
 const { title } = Astro.props;
-import "../styles/main.css";
+import '../styles/main.css';
 ---
 
 <html lang="en">
@@ -12,7 +12,7 @@ import "../styles/main.css";
     <title>{title}</title>
   </head>
   <body>
-    <div class="fuzz-container relative overflow-hidden">
+    <div class="fuzz-container">
       <slot />
       <div class="fuzzy-overlay"></div>
     </div>
@@ -20,14 +20,19 @@ import "../styles/main.css";
 </html>
 
 <style>
-  .fuzzy-overlay {
+  /* .fuzz-container {
+    position: relative;
+    overflow: hidden;
+  } */
+
+  /* .fuzzy-overlay {
     pointer-events: none;
     position: absolute;
     inset: -200%;
-    background: url("../assets/textures/Texturelabs_ReticulationNoise.jpg");
+    background: url('../assets/textures/Texturelabs_ReticulationNoise.jpg');
     opacity: 5%;
     animation: shift 0.2s linear infinite both;
-  }
+  } */
 
   @keyframes shift {
     0% {

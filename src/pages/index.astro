@@ -3,5 +3,52 @@ import BaseLayout from '../layout/BaseLayout.astro';
 ---
 
 <BaseLayout title="Home">
-  <h1>Home Page</h1>
+  <header>
+    <div class="logo">LOGO</div>
+    <div>Offcanvas Nav</div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="content-wrapper">
+        <div>
+          Saltwater Productions
+          <span>presents</span>
+          July 15th &mdash; 2024
+        </div>
+        <h1 class="ff-serif uppercase">Rusty Rudder</h1>
+        <div>
+          Music <span>&</span> Arts Festival Downbad Yacht Club Lake Hefner &mdash; OKC
+        </div>
+      </div>
+    </section>
+    <article class="lineup">
+      <h2>Festival Lineup</h2>
+    </article>
+  </main>
 </BaseLayout>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--grid-max-width);
+    padding-block: var(--space-m);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    & h1 {
+      line-height: 1;
+    }
+  }
+</style>
